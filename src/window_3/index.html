@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CSP -->
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+		<title>你好!</title>
+	</head>
+	<body>
+		<h1>窗口 3</h1>
+		<h3>渲染进程调起主进程 dialog，同时选择图片后，异步获取图片路径</h3>
+		<input type="text">
+		<button id="btn1">调用主进程对话框</button>
+
+	</body>
+	<script src="./renderer.js"></script>
+</html>

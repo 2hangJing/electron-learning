@@ -1,0 +1,22 @@
+.DS_Store
+*.zip
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.zip
+*.7z
+*.ini
+**/node_modules
+out
+dist
+.csscomb.json
+components.d.ts
+**/.editorconfig
+**/yarn.lock
+**/package-lock.json
+**/analyse-*.json

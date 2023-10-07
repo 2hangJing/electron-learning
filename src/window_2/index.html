@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CSP -->
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+		<title>你好!</title>
+	</head>
+	<body>
+		<h1>窗口 2</h1>
+		<h3>主进程与渲染进程单向通行，可传参</h3>
+		<h2>0</h2>
+	</body>
+	<script src="./renderer.js"></script>
+</html>

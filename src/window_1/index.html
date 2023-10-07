@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>你好!</title>
+</head>
+
+<body>
+    <h1>窗口 1</h1>
+    <h3>渲染进程获取 title 通过传参的方式单向发送给主进程</h3>
+    <input type="text">
+    <button id="btn1">向主进程发送数据</button>
+</body>
+<script src="./renderer.js"></script>
+
+</html>
