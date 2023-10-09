@@ -7,4 +7,7 @@ contextBridge.exposeInMainWorld('bridgeApi', {
     fnCreateWindow_4: () => ipcRenderer.send('fnCreateWindow_4'),
     fnCreateWindow_5: () => ipcRenderer.send('fnCreateWindow_5'),
     fnCreateWindow_6: () => ipcRenderer.send('fnCreateWindow_6'),
+    fnCreateWindow_7: () => ipcRenderer.send('fnCreateWindow_7'),
+    fnCreateWindow_8: () => ipcRenderer.send('fnCreateWindow_8'),
+    fnCreateWindow_camera: () => ipcRenderer.send('fnCreateWindow_camera'),
 });

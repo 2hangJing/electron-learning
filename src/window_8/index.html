@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./theme.css">
+    <title>主题色</title>
+</head>
+<body>
+    <select>
+        <option value="dark">深色 主题</option>
+        <option value="light">浅色 主题</option>
+        <option value="system">跟随系统 主题</option>
+    </select>
+    <button id="theme">设置主题颜色</button>
+
+    <br>
+    <div>
+        设置背景色: <input type="color" id="bgColor">
+        <br>
+        标题栏样式: <input type="color" id="titleStyle">
+    </div>
+    <button id="customColorBtn">设置自定义颜色</button>
+    
+</body>
+<script src="./renderer.js"></script>
+</html>

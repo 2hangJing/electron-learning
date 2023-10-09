@@ -1,6 +1,9 @@
 const path = require('path');
 const {app, BrowserWindow, ipcMain, dialog, Menu, screen} = require('electron');
 const fnCreateWindow_6 = require('./window_6/createWindow');
+const fnCreateWindow_7 = require('./window_7/createWindow');
+const fnCreateWindow_8 = require('./window_8/createWindow');
+const fnCreateWindow_camera = require('./window_camera/createWindow');
 
 const createWindow_default = () => {
     const win = new BrowserWindow({
@@ -225,6 +228,16 @@ ipcMain.on('fnCreateWindow_5', (event, arg) => {
 ipcMain.on('fnCreateWindow_6', (event, arg) => {
     fnCreateWindow_6();
 });
+ipcMain.on('fnCreateWindow_7', (event, arg) => {
+    fnCreateWindow_7();
+});
+ipcMain.on('fnCreateWindow_8', (event, arg) => {
+    fnCreateWindow_8();
+});
+ipcMain.on('fnCreateWindow_camera', (event, arg) => {
+    fnCreateWindow_camera();
+});
+
 
 app.whenReady().then(() => {
     createWindow_default();

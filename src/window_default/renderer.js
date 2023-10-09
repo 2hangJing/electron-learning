@@ -18,5 +18,14 @@ window.addEventListener('load', e => {
     document.querySelector('#btn6').addEventListener('click', () => {
         window.bridgeApi.fnCreateWindow_6();
     });
+    document.querySelector('#btn7').addEventListener('click', () => {
+        window.bridgeApi.fnCreateWindow_7();
+    });
+    document.querySelector('#btn8').addEventListener('click', () => {
+        window.bridgeApi.fnCreateWindow_8();
+    });
 
+    document.querySelector('#btnCamera').addEventListener('click', () => {
+        window.bridgeApi.fnCreateWindow_camera();
+    });
 });

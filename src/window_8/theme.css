@@ -1,0 +1,26 @@
+
+:root {
+    --light-font-color: #333;
+    --light-bg-color: #eee;
+    
+    --dark-font-color: #ddd;
+    --dark-bg-color: #333;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--dark-bg-color);
+    }
+    p,span,div{
+        color: var(--dark-font-color);
+    }
+}
+  
+@media (prefers-color-scheme: light) {
+    p,span,div{
+        color: var(--light-font-color);
+    }
+    body {
+        background-color: var(--light-bg-color);
+    }
+}
