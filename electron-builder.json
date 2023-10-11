@@ -1,0 +1,24 @@
+{
+    "appId": "com.electron.learning",
+    "productName": "learning",
+    "directories": {
+        "output": "package"
+    },
+    "win": {
+        "icon": "build/icon.png",
+        "target": [
+            {
+                "target": "nsis",
+                "arch": ["x64"]
+            }
+        ]
+    },
+    "nsis": {
+        "oneClick": false,
+        "allowToChangeInstallationDirectory": true,
+        "createDesktopShortcut": false,
+        "createStartMenuShortcut": false,
+        "installerIcon": "build/install.ico",
+        "uninstallerIcon": "build/delete.ico"
+    }
+}

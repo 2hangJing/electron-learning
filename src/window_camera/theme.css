@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* html{
+    -webkit-app-region: drag;
+}
+button{
+    -webkit-app-region: no-drag;
+} */
+video{
+    border-radius: 50%;
+}
